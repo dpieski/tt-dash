@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          This is a Piechocki Productions,LLC Application. Edit
+          This is a Piechocki Aweomse Productions,LLC Application. Edit
           <code>src/App.js</code> and save to reload.
         </p>
         <a
