@@ -4,6 +4,7 @@ import {
   BarChartLine,
   XDiamondFill,
   TrophyFill,
+  Gear,
 } from 'react-bootstrap-icons'
 import { Nav } from 'react-bootstrap'
 import { NavLink } from 'react-router-dom'
@@ -66,6 +67,21 @@ const LeftNavigation = () => {
             style={{ color: 'grey' }}
           >
             <Alt className="mb-2" size={30} />
+          </NavLink>
+        </Nav.Item>
+        <Nav.Item>
+          <NavLink
+            to="/settings"
+            activeStyle={{
+              fontWeight: 'bold',
+              color: 'black',
+              borderLeft: '2px ',
+              paddingLeft: '3px',
+            }}
+            exact
+            style={{ color: 'grey' }}
+          >
+            <Gear className="mb-2" size={30} />
           </NavLink>
         </Nav.Item>
       </Nav>
